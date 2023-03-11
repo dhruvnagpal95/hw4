@@ -22,7 +22,7 @@ test:
 
 production:
   <<: *default
-    adapter: postgresql
+  adapter: postgresql
   database: wanderingsouls_production
   username: wanderingsouls
   password: <%= ENV["TACOGRAM_FINAL_DATABASE_PASSWORD"] %>
